@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box; /* This will ensure padding and borders are included in width */
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  row-gap: 50px;
+  padding: 20px;
+}
+
+.child1 {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#input_field {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  resize: vertical;
+}
+
+#input_field:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+
+.child2 {
+  background-color: rgb(228, 228, 228);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.svg_parent {
+  border-radius: 5px;
+}
